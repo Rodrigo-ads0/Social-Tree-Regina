@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fa2344;
+}
+
+body {
+    height: 100vh;
+    width:  100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 100%;
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigBox {
+    min-width: 90%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgba(197, 197, 197, 0.295);
+    border: 2px solid #fa2344;
+}
+
+.top img {
+    width: 20rem;
+}
+
+.top, .bot {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+button {
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: #0a0a0a7c 0px 5px 15px;
+}
+
+button:hover{
+    width: 20.5rem;
+    height: 3.1rem;
+}
+
+.button1 {
+    display: flex;
+    gap: 3rem;
+    background-color: #fa2344;
+  
+}
+.button2 {
+    display: flex;
+    gap: 5rem;
+    background-color: #fa2344;
+    
+}
+.button3 {
+    display: flex;
+    gap: 5rem;
+    background-color: #fa2344;
+ 
+}
+.button4 {
+    display: flex;
+    gap: 5.5rem;
+    background-color: #fa2344;
+
+}
+
+button img {
+    width: 1.5rem;
+}
+
+.creditos {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
